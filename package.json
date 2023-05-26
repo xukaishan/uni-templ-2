@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "npm run dev:h5",
+    "dev": "npm run dev:h5",
     "build": "npm run build:h5",
     "build:app-plus": "cross-env NODE_ENV=production UNI_PLATFORM=app-plus vue-cli-service uni-build",
     "build:custom": "cross-env NODE_ENV=production uniapp-cli custom",
@@ -67,9 +67,13 @@
     "@dcloudio/uni-quickapp-webview": "^2.0.2-3071120230427001",
     "@dcloudio/uni-stacktracey": "^2.0.2-3071120230427001",
     "@dcloudio/uni-stat": "^2.0.2-3071120230427001",
+    "@littlekai/easy-api-uni": "^0.0.0",
+    "@uni-helper/uni-network": "^0.15.0",
     "@vue/shared": "^3.0.0",
     "core-js": "^3.8.3",
     "flyio": "^0.6.2",
+    "qs": "^6.11.2",
+    "uview-ui": "2.0.31",
     "vue": ">= 2.6.14 < 2.7",
     "vuex": "^3.2.0"
   },
@@ -94,6 +98,8 @@
     "mini-types": "*",
     "miniprogram-api-typings": "*",
     "postcss-comment": "^2.0.0",
+    "sass": "^1.62.1",
+    "sass-loader": "10",
     "vue-template-compiler": ">= 2.6.14 < 2.7"
   },
   "browserslist": [
